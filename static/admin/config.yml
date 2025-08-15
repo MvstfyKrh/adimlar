@@ -4,6 +4,7 @@ backend:
 locales: "tr"
 media_folder: "static/images" 
 public_folder: "/images"
+use_relative_media_paths: false
 collections:
   - name: "posts" 
     label: "Gönderiler" 
