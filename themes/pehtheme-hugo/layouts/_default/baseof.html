@@ -2,6 +2,7 @@
 <html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
 <head>
   {{ partial "head.html" . }}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   <header class="py-6 border-b">
@@ -13,6 +14,17 @@
   <!--footer class="bg-zinc-100 py-10 md:py-14">
     {{- partial "footer.html" . -}}
   </footer-->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
   {{- partialCached "footer/js.html" . }}
 </body>
 </html>

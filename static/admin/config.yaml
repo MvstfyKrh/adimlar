@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "static/images" 
+public_folder: "images"
+collections:
+  - name: "posts" 
+    label: "Gönderiler" 
+    folder: "content/posts"
+    path: "{{slug}}"
+    create: true 
+    fields: 
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "Açıklama", name: "description", widget: "text" }
+      - { label: "Tarih", name: "date", widget: "datetime" }
+      - { label: "Resim", name: "image", widget: "image", default: images/default-placeholder.png }
+      - { label: "Resim Altyazı", name: "caption", widget: "string", required: false }
+      - label: "Yazar"
+        name: "author"
+        widget: "object"
+        fields:
+          - { label: "Ad - Soyad", name: "name",  widget: "string" }
+          - { label: "Profil Resmi", name: "avatar",  widget: "image", default: images/avatar.png }
+      - { label: "Kategoriler", name: "categories",  widget: "list", default: [], required: false }
+      - { label: "Etikeler", name: "tags", widget: "list", default: [], required: false }
+      - { label: "Yazı", name: "body", widget: "markdown" }

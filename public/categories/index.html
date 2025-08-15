@@ -15,6 +15,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32.png"> 
 <link rel="icon" type="image/png" sizes="64x64" href="http://localhost:1313/favicon-64.png"> 
 
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   <header class="py-6 border-b"><div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col">
@@ -161,6 +162,17 @@
 
 </main>
   
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
       <script src="/js/insertoggle.js"></script>
 </body>
 </html>
