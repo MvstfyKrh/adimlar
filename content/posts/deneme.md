@@ -2,7 +2,7 @@
 title: Deneme
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 date: 2025-08-14T18:01:54+03:00
-image: nadine-shaabana-zpp-zp8hyg0-unsplash.jpg
+image: cirno.jpg
 caption: Quisque eleifend malesuada felis non luctus
 author:
   name: Ad Soyad
