@@ -1,16 +1,16 @@
 ---
+title: Deneme
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 date: 2025-08-14T18:01:54+03:00
-title: 'Deneme'
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 image: images/default-placeholder.png
-caption: "Quisque eleifend malesuada felis non luctus"
+caption: Quisque eleifend malesuada felis non luctus
 author:
-    name: "İsim Soyisim"
-    avatar: images/avatar.png
+  name: Ad Soyad
+  avatar: images/avatar.png
 categories:
-    - edebiyat
+  - edebiyat
 tags:
-    - yabancı
+  - yabancı
 ---
 
 ## Başlık
