@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Deneme",
+    "url": "/posts/deneme/",
+    "tags": ["yabancı"],
+    "categories": ["edebiyat"],
+    "author": "İsim Soyisim",
+    "card": "\u003carticle class=\"relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl\"\u003e\r\n\t\r\n\t\u003ca class=\"insert-link\" href=\"http://localhost:1313/posts/deneme/\"\u003e\u003c/a\u003e\r\n\r\n\t\u003cfigure class=\"w-full aspect-video overflow-hidden rounded-3xl\"\u003e\u003cimg class=\"object-cover group-hover:scale-105 transition duration-500 cursor-pointer\" src=\"http://localhost:1313/images/default-placeholder_hu_74caadebe5bfcf56.png\" alt=\"Deneme\" width=\"750\" height=\"422\"\u003e\r\n\r\n\t  \u003c/figure\u003e\r\n\r\n\t\u003cdiv class=\"p-6\"\u003e\u003ctime datetime=\"2025-08-14T18:01:54\u0026#43;03:00\"\u003e14 Ağustos 2025\u003c/time\u003e\r\n\r\n\t\t\u003ch3 class=\"my-4 text-2xl font-bold\"\u003eDeneme\u003c/h3\u003e\r\n\r\n\t\t\u003cp class=\"text-normal leading-normal text-zinc-500 line-clamp-2\"\u003eLorem ipsum dolor sit amet, consectetur adipiscing elit.\u003c/p\u003e\r\n\r\n\t\u003c/div\u003e\r\n\u003c/article\u003e"
+  },
+  {
+    "title": "Edebiyat Makalesi 2",
+    "url": "/posts/edebiyatmakalesi2/",
+    "tags": ["yabancı","klasik"],
+    "categories": ["edebiyat"],
+    "author": "İsim Soyisim",
+    "card": "\u003carticle class=\"relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl\"\u003e\r\n\t\r\n\t\u003ca class=\"insert-link\" href=\"http://localhost:1313/posts/edebiyatmakalesi2/\"\u003e\u003c/a\u003e\r\n\r\n\t\u003cfigure class=\"w-full aspect-video overflow-hidden rounded-3xl\"\u003e\u003cimg class=\"object-cover group-hover:scale-105 transition duration-500 cursor-pointer\" src=\"http://localhost:1313/images/edebiyatdenensey2_hu_630ef9f853bd2f8a.jpg\" alt=\"Edebiyat Makalesi 2\" width=\"750\" height=\"604\"\u003e\r\n\r\n\t  \u003c/figure\u003e\r\n\r\n\t\u003cdiv class=\"p-6\"\u003e\u003ctime datetime=\"2025-08-07T17:45:30\u0026#43;03:00\"\u003e7 Ağustos 2025\u003c/time\u003e\r\n\r\n\t\t\u003ch3 class=\"my-4 text-2xl font-bold\"\u003eEdebiyat Makalesi 2\u003c/h3\u003e\r\n\r\n\t\t\u003cp class=\"text-normal leading-normal text-zinc-500 line-clamp-2\"\u003eLorem ipsum dolor sit amet, consectetur adipiscing elit.\u003c/p\u003e\r\n\r\n\t\u003c/div\u003e\r\n\u003c/article\u003e"
+  },
+  {
+    "title": "Edebiyat Makalesi 1",
+    "url": "/posts/edebiyatmakalesi1/",
+    "tags": ["divan","aruz"],
+    "categories": ["edebiyat"],
+    "author": "İsim Soyisim",
+    "card": "\u003carticle class=\"relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl\"\u003e\r\n\t\r\n\t\u003ca class=\"insert-link\" href=\"http://localhost:1313/posts/edebiyatmakalesi1/\"\u003e\u003c/a\u003e\r\n\r\n\t\u003cfigure class=\"w-full aspect-video overflow-hidden rounded-3xl\"\u003e\u003cimg class=\"object-cover group-hover:scale-105 transition duration-500 cursor-pointer\" src=\"http://localhost:1313/images/poetry_hu_5383b461db1217c6.jpg\" alt=\"Edebiyat Makalesi 1\" width=\"750\" height=\"500\"\u003e\r\n\r\n\t  \u003c/figure\u003e\r\n\r\n\t\u003cdiv class=\"p-6\"\u003e\u003ctime datetime=\"2025-08-07T17:45:25\u0026#43;03:00\"\u003e7 Ağustos 2025\u003c/time\u003e\r\n\r\n\t\t\u003ch3 class=\"my-4 text-2xl font-bold\"\u003eEdebiyat Makalesi 1\u003c/h3\u003e\r\n\r\n\t\t\u003cp class=\"text-normal leading-normal text-zinc-500 line-clamp-2\"\u003eLorem ipsum dolor sit amet, consectetur adipiscing elit.\u003c/p\u003e\r\n\r\n\t\u003c/div\u003e\r\n\u003c/article\u003e"
+  },
+  {
+    "title": "Tarih Makalesi 2",
+    "url": "/posts/tarihmakalesi2/",
+    "tags": ["ortaçağ","fransa","yüz yıl savaşı"],
+    "categories": ["tarih"],
+    "author": "İsim Soyisim",
+    "card": "\u003carticle class=\"relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl\"\u003e\r\n\t\r\n\t\u003ca class=\"insert-link\" href=\"http://localhost:1313/posts/tarihmakalesi2/\"\u003e\u003c/a\u003e\r\n\r\n\t\u003cfigure class=\"w-full aspect-video overflow-hidden rounded-3xl\"\u003e\u003cimg class=\"object-cover group-hover:scale-105 transition duration-500 cursor-pointer\" src=\"http://localhost:1313/images/his2_hu_c5d34be26910303.jpg\" alt=\"Tarih Makalesi 2\" width=\"750\" height=\"659\"\u003e\r\n\r\n\t  \u003c/figure\u003e\r\n\r\n\t\u003cdiv class=\"p-6\"\u003e\u003ctime datetime=\"2025-08-07T17:45:14\u0026#43;03:00\"\u003e7 Ağustos 2025\u003c/time\u003e\r\n\r\n\t\t\u003ch3 class=\"my-4 text-2xl font-bold\"\u003eTarih Makalesi 2\u003c/h3\u003e\r\n\r\n\t\t\u003cp class=\"text-normal leading-normal text-zinc-500 line-clamp-2\"\u003eLorem ipsum dolor sit amet, consectetur adipiscing elit.\u003c/p\u003e\r\n\r\n\t\u003c/div\u003e\r\n\u003c/article\u003e"
+  },
+  {
+    "title": "Tarih Makalesi 1",
+    "url": "/posts/tarihmakalesi1/",
+    "tags": ["cumhuriyet","inkilap","tarih"],
+    "categories": ["tarih"],
+    "author": "İsim Soyisim",
+    "card": "\u003carticle class=\"relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl\"\u003e\r\n\t\r\n\t\u003ca class=\"insert-link\" href=\"http://localhost:1313/posts/tarihmakalesi1/\"\u003e\u003c/a\u003e\r\n\r\n\t\u003cfigure class=\"w-full aspect-video overflow-hidden rounded-3xl\"\u003e\u003cimg class=\"object-cover group-hover:scale-105 transition duration-500 cursor-pointer\" src=\"http://localhost:1313/images/his1_hu_cb3d743c4e89aaf9.jpg\" alt=\"Tarih Makalesi 1\" width=\"750\" height=\"563\"\u003e\r\n\r\n\t  \u003c/figure\u003e\r\n\r\n\t\u003cdiv class=\"p-6\"\u003e\u003ctime datetime=\"2025-08-07T17:45:09\u0026#43;03:00\"\u003e7 Ağustos 2025\u003c/time\u003e\r\n\r\n\t\t\u003ch3 class=\"my-4 text-2xl font-bold\"\u003eTarih Makalesi 1\u003c/h3\u003e\r\n\r\n\t\t\u003cp class=\"text-normal leading-normal text-zinc-500 line-clamp-2\"\u003eLorem ipsum dolor sit amet, consectetur adipiscing elit.\u003c/p\u003e\r\n\r\n\t\u003c/div\u003e\r\n\u003c/article\u003e"
+  }]

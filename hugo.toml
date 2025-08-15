@@ -1,0 +1,55 @@
+baseURL = 'https://adimlar.netlify.app/'
+languageCode = 'tr'
+defaultContentLanguage = 'tr'
+title = 'Adımlar'
+theme = 'pehtheme-hugo'
+
+summaryLength = 20 # <- 20 words are approximately 160 characters
+googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
+
+[params]
+	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
+	description = 'Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism.'
+	mainSections = 'posts'
+	searchSections = 'posts'
+
+[pagination]
+	pagerSize = 6 # <- Set the desired number of posts per page 
+
+[menu] # Menu management
+	[[menu.main]]
+		name = 'Ana Sayfa'
+		pageRef = '/'
+		weight = 10
+	[[menu.main]]
+		name = 'Kategoriler'
+		pageRef = '/categories'
+		weight = 15
+	[[menu.main]]
+		name = 'Etiketler'
+		pageRef = '/tags'
+		weight = 20
+
+[related]
+	threshold = 80
+	includeNewer = true
+	toLower = false
+
+	[[related.indices]]
+	name = "tags"
+	weight = 100
+
+	[[related.indices]]
+	name = "categories"
+	weight = 80
+
+[outputs]
+	home = ["HTML", "JSON"]
+
+#[module]
+#  [module.hugoVersion]
+#    extended = false
+#    min = "0.116.0"
+#  [module.mounts] # Directing the static folder to assets.
+#  	source = 'assets'
+#  	target = 'static'
