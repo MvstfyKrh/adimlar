@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deneme on Adımlar</title>
+    <link>http://localhost:1313/tags/deneme/</link>
+    <description>Recent content in Deneme on Adımlar</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 15 Aug 2025 12:06:10 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/deneme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Fri, 15 Aug 2025 12:06:10 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;h2 id=&#34;başlık&#34;&gt;Başlık&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Lorem ipsum &lt;strong&gt;dolor&lt;/strong&gt; sit amet, consectetur adipiscing elit. Quisque eleifend malesuada felis non luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis sollicitudin ligula mi. Aliquam erat volutpat. Aliquam erat volutpat. In auctor felis lacus, pulvinar egestas eros pretium vel. Ut aliquam ornare odio, luctus vulputate lacus egestas sit amet.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

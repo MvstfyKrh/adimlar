@@ -6,8 +6,29 @@
     <description>Recent content in Etiketler on Adımlar</description>
     <generator>Hugo</generator>
     <language>tr</language>
-    <lastBuildDate>Thu, 14 Aug 2025 18:01:54 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 15 Aug 2025 14:17:21 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/tags/test/</link>
+      <pubDate>Fri, 15 Aug 2025 14:17:21 +0000</pubDate>
+      <guid>http://localhost:1313/tags/test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Admin</title>
+      <link>http://localhost:1313/tags/admin/</link>
+      <pubDate>Fri, 15 Aug 2025 12:06:10 +0000</pubDate>
+      <guid>http://localhost:1313/tags/admin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deneme</title>
+      <link>http://localhost:1313/tags/deneme/</link>
+      <pubDate>Fri, 15 Aug 2025 12:06:10 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deneme/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Yabancı</title>
       <link>http://localhost:1313/tags/yabanc%C4%B1/</link>
