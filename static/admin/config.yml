@@ -9,9 +9,6 @@ collections:
   - name: "posts" 
     label: "Gönderiler" 
     folder: "content/posts"
-    media_folder: "static/images/uploads" 
-    public_folder: "/images/uploads"
-    path: "{{slug}}"
     create: true 
     fields: 
       - { label: "Başlık", name: "title", widget: "string" }
