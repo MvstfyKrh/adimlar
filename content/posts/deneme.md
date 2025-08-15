@@ -2,13 +2,13 @@
 title: Deneme
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 date: 2025-08-14T18:01:54+03:00
-image: images/default-placeholder.png
+image: nadine-shaabana-zpp-zp8hyg0-unsplash.jpg
 caption: Quisque eleifend malesuada felis non luctus
 author:
   name: Ad Soyad
-  avatar: images/avatar.png
+  avatar: nasa-astronaut-unsplash.jpg
 categories:
-  - edebiyat
+  - test
 tags:
   - yabancı
 ---
