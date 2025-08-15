@@ -2,11 +2,11 @@
 title: Deneme
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 date: 2025-08-14T18:01:54+03:00
-image: /images/uploads/cirno.jpg
+image: /images/default-placeholder.png
 caption: Quisque eleifend malesuada felis non luctus
 author:
   name: Ad Soyad
-  avatar: nasa-astronaut-unsplash.jpg
+  avatar: images/avatar.png
 categories:
   - test
 tags:
