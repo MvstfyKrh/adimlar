@@ -6,7 +6,7 @@ image: /images/default-placeholder.png
 caption: Quisque eleifend malesuada felis non luctus
 author:
   name: Ad Soyad
-  avatar: images/avatar.png
+  avatar: /images/cirno.jpg
 categories:
   - test
 tags:
