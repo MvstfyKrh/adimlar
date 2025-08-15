@@ -2,10 +2,10 @@
 title: Test 2
 description: ddeefafa
 date: 2025-08-15T14:17:21.818Z
-image: /images/uploads/poetry.jpg
+image: /images/edebiyatdenensey2.jpg
 caption: aaaa
 author:
-  avatar: /images/uploads/cirno.jpg
+  avatar: /images/cirno.jpg
   name: asfa fafa
 categories:
   - Test
