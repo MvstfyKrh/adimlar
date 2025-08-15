@@ -2,7 +2,7 @@
 title: Test 2
 description: ddeefafa
 date: 2025-08-15T14:17:21.818Z
-image: /images/edebiyatdenensey2.jpg
+image: /images/cirno.jpg
 caption: aaaa
 author:
   avatar: /images/cirno.jpg
