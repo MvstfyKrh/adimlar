@@ -22,13 +22,17 @@ summaryLength = 20 # <- 20 words are approximately 160 characters
 		pageRef = '/'
 		weight = 10
 	[[menu.main]]
+		name = 'Tüm Yazılarımız'
+		pageRef = '/posts'
+		weight = 15
+	[[menu.main]]
 		name = 'Kategoriler'
 		pageRef = '/categories'
-		weight = 15
+		weight = 20
 	[[menu.main]]
 		name = 'Etiketler'
 		pageRef = '/tags'
-		weight = 20
+		weight = 25
 
 [related]
 	threshold = 80

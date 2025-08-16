@@ -1,13 +1,5 @@
 [
   {
-    "title": "Test 2",
-    "url": "/posts/test-2/",
-    "tags": ["Test"],
-    "categories": ["Test"],
-    "author": "asfa fafa",
-    "card": "\u003carticle class=\"relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl\"\u003e\r\n\t\r\n\t\u003ca class=\"insert-link\" href=\"http://localhost:1313/posts/test-2/\"\u003e\u003c/a\u003e\r\n\r\n\t\u003cfigure class=\"w-full aspect-video overflow-hidden rounded-3xl\"\u003e\u003cimg class=\"object-cover group-hover:scale-105 transition duration-500 cursor-pointer\" src=\"http://localhost:1313/images/edebiyatdenensey2_hu_630ef9f853bd2f8a.jpg\" alt=\"Test 2\" width=\"750\" height=\"604\"\u003e\r\n\r\n\t  \u003c/figure\u003e\r\n\r\n\t\u003cdiv class=\"p-6\"\u003e\u003ctime datetime=\"2025-08-15T14:17:21\u0026#43;00:00\"\u003e15 Ağustos 2025\u003c/time\u003e\r\n\r\n\t\t\u003ch3 class=\"my-4 text-2xl font-bold\"\u003eTest 2\u003c/h3\u003e\r\n\r\n\t\t\u003cp class=\"text-normal leading-normal text-zinc-500 line-clamp-2\"\u003eddeefafa\u003c/p\u003e\r\n\r\n\t\u003c/div\u003e\r\n\u003c/article\u003e"
-  },
-  {
     "title": "Test",
     "url": "/posts/test/",
     "tags": ["Deneme","Admin"],
