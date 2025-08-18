@@ -29,11 +29,15 @@
           
           <li class="font-semibold my-2">{{ .Params.Author.name }}</li>
           
+          {{- if .Date}}
+
           <li class="before:content-['•'] before:mr-2 before:opacity-50 my-2">
             {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
             {{- $dateHuman := .Date | time.Format ":date_long" -}}
             <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
           </li>
+
+          {{- end}}
 
           <!--li class="before:content-['•'] before:mr-2 before:opacity-50 my-2">
             {{ .ReadingTime }} min read
@@ -45,9 +49,9 @@
       
     </header>
 
-    <figure id="featureimage" class="rounded-xl aspect-video">
+    {{- if .Params.image }}
 
-      {{- if .Params.image }}
+    <figure id="featureimage" class="rounded-xl aspect-video">
 
         {{- if ( strings.HasPrefix .Params.image "http" ) }}
 
@@ -62,13 +66,13 @@
 
         {{- end }}
 
-      {{- end }}
-
       {{- if ( isset .Params "caption" ) }}
         <figcaption class="text-center italic text-xs">{{ .Params.caption }}</figcaption>
       {{- end }}
 
     </figure>
+
+    {{- end }}
 
     <div id="content" class="mb-14">
       <!-- Content -->
@@ -93,23 +97,24 @@
         
       </div-->
 
+      
       <div id="related-post" class="">
-
-        <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Önerilenler</h2>
 
         {{- $related := .Site.RegularPages.Related . | first 2 -}}
 
         {{- with $related -}}
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Önerilenler</h2>
 
-          {{- range . }}
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-          {{- partial "content/card.html" . -}}
+            {{- range . }}
 
-          {{- end }}
-          
-        </div>
+            {{- partial "content/card.html" . -}}
+
+            {{- end }}
+            
+          </div>
 
         {{- end }}
       </div>
