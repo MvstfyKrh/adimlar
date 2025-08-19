@@ -13,5 +13,5 @@ Mauris in efficitur metus. Nunc tincidunt risus nec tortor blandit, sed rhoncus 
 
 Vestibulum quis dapibus velit, sed ullamcorper mi. In eget lacus tempor, porta nisl eget, pharetra justo. Cras vel eleifend sapien, ac tempor sem. Sed orci sapien, iaculis eget arcu vel, iaculis vestibulum nulla. Proin posuere, lectus non mollis dignissim, risus diam imperdiet tellus, a fringilla mi metus eget ex. Ut euismod ornare arcu, et dignissim odio varius nec. Morbi imperdiet sem nunc, vitae suscipit diam tincidunt at. Quisque eu fringilla ante, sed pharetra orci. Pellentesque velit ligula, lobortis ac posuere non, placerat et orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam sed ipsum orci. Ut blandit augue nec elit placerat sollicitudin. Etiam lobortis malesuada risus, vel dignissim justo luctus at. Mauris venenatis suscipit metus. Proin scelerisque diam dapibus tempus laoreet. 
 
-**Tasarım:** Mustafa Kara  
+**Site Tasarımı:** Mustafa Kara  
 **Orjinal Tema:** Pehtheme Hugo, Fauzan My
