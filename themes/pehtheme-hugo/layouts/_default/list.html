@@ -23,11 +23,11 @@
 
       <div class="flex items-center mt-10">
         {{- if .Paginator.HasPrev -}}
-          <a class="border rounded-full px-6 py-2 hover:bg-zinc-200 mr-auto" href="{{ .Paginator.Prev.URL }}">← Önceki</a>
+          <a class="border rounded-full px-6 py-2 bg-bisque hover:bg-ivory mr-auto" href="{{ .Paginator.Prev.URL }}">← Geri</a>
         {{- end -}}
 
         {{- if .Paginator.HasNext -}}
-          <a class="border rounded-full px-6 py-2 hover:bg-zinc-200" href="{{ .Paginator.Next.URL }}">Sonraki →</a>
+          <a class="border rounded-full px-6 py-2 bg-bisque hover:bg-ivory" href="{{ .Paginator.Next.URL }}">İleri →</a>
         {{- end -}}
       </div>
     </div>

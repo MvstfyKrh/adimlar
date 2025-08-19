@@ -1360,12 +1360,12 @@ video {
   border-top-width: 1px;
 }
 
-.border-zinc-200 {
+.border-coral-reef {
   --tw-border-opacity: 1;
-  border-color: rgb(113 103 81 / var(--tw-border-opacity));
+  border-color: rgb(201 190 163 / var(--tw-border-opacity));
 }
 
-.border-zinc-400 {
+.border-coffee {
   --tw-border-opacity: 1;
   border-color: rgb(113 103 81 / var(--tw-border-opacity));
 }
@@ -1390,7 +1390,7 @@ video {
   background-color: rgb(255 255 227 / var(--tw-bg-opacity));
 }
 
-.bg-zinc-100 {
+.bg-bisque {
   --tw-bg-opacity: 1;
   background-color: rgb(233 217 184 / var(--tw-bg-opacity));
 }
@@ -1940,17 +1940,12 @@ video {
   content: var(--tw-content);
 }
 
-.hover\:bg-blue-100:hover {
+.hover\:bg-ivory:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 227 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-zinc-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 227 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-zinc-200:hover {
+.hover\:bg-chino:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(212 202 176 / var(--tw-bg-opacity));
 }
