@@ -22,6 +22,6 @@ collections:
         fields:
           - { label: "Ad - Soyad", name: "name",  widget: "string" }
           - { label: "Profil Resmi", name: "avatar",  widget: "image", default: images/avatar.png }
-      - { label: "Kategoriler", name: "categories",  widget: "list", default: [], required: false }
-      - { label: "Etikeler", name: "tags", widget: "list", default: [], required: false }
+      - { label: "Kategoriler", name: "categories",  widget: "list", default: [] }
+      - { label: "Etikeler", name: "tags", widget: "list", default: [] }
       - { label: "Yazı", name: "body", widget: "markdown" }
