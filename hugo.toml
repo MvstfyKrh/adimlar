@@ -30,7 +30,7 @@ summaryLength = 20 # <- 20 words are approximately 160 characters
 		pageRef = '/categories'
 		weight = 20
 	[[menu.main]]
-		name = 'Etiketler'
+		name = 'Konular'
 		pageRef = '/tags'
 		weight = 25
 

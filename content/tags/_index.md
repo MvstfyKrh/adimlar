@@ -1,5 +1,5 @@
 ---
-title: Etiketler
-linkTitle: Etiketler
+title: Konular
+linkTitle: Konular
 slug: /tags/
 ---
