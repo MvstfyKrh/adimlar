@@ -11,7 +11,7 @@ categories:
   - Tarih
 tags:
   - Osmanlı
-  - 1.Murad
+  - 1. Murad
   - Muharabe
 ---
 1364 yılında Macar Kralı [I. Lajos](https://tr.wikipedia.org/wiki/I._Lajos "I. Lajos"), [Pirlepe](https://tr.wikipedia.org/wiki/Pirlepe "Pirlepe") bölgesinin Sırp kökenli beyi [Vukašin Mrnjavčević](https://tr.wikipedia.org/wiki/Vuka%C5%A1in_Mrnjav%C4%8Devi%C4%87 "Vukašin Mrnjavčević"), [Jovan Uglješa](https://tr.wikipedia.org/wiki/Jovan_Uglje%C5%A1a "Jovan Uglješa"), [Eflak Prensi](https://tr.wikipedia.org/wiki/Eflak_Prensli%C4%9Fi "Eflak Prensliği") ve [Bosna Prensi](https://tr.wikipedia.org/wiki/Bosna_Banl%C4%B1%C4%9F%C4%B1 "Bosna Banlığı") idaresindeki birliklerden oluşan 30.000 (bazı kaynaklar 60.000) kişilik bir Haçlı ordusu kurulup Macaristan Kralı Lajos komutasında Edirne üzerine yürümeye başladı.[*[kaynak belirtilmeli](https://tr.wikipedia.org/wiki/Vikipedi:Kaynak_g%C3%B6sterme "Vikipedi:Kaynak gösterme")*]
