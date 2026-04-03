@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+{{- partial "content/breadcrumb.html" . -}}
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14">
+    <section class="md:col-span-2">
+    <h1 class="text-3xl font-bold mb-6">Arama Sonuçları</h1>
+
+    <div id="searchResults" class="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-4">
+        <p>Sonuçlar yükleniyor...</p>
+    </div>
+    </section>
+
+    <aside class="md:col-span-1">
+
+        {{- partial "content/aside.html" . -}}
+        
+    </aside>
+</div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const params = new URLSearchParams(window.location.search);
+    const query = params.get('q')?.trim().toLowerCase();
+    const resultsContainer = document.getElementById('searchResults');
+
+    if (!query) {
+        resultsContainer.innerHTML = '<p class="text-zinc-500">Hiçbir değer girilmedi.</p>';
+        return;
+    }
+
+    fetch('/index.json')
+        .then(res => res.json())
+        .then(posts => {
+        const filtered = posts.filter(post => {
+            const inAuthor = post.author?.toLowerCase().includes(query);
+            const inCat = Array.isArray(post.categories) && post.categories.some(tag => tag.toLowerCase().includes(query));
+            const inTags = Array.isArray(post.tags) && post.tags.some(tag => tag.toLowerCase().includes(query));
+            const inTitle = post.title.toLowerCase().includes(query);
+
+            console.log(`[DEBUG] "${post.title}":`, { inTitle, inCat, inAuthor, inTags });
+
+            return  inAuthor || inCat || inTags || inTitle;
+        });
+
+        resultsContainer.innerHTML = '';
+
+        if (filtered.length === 0) {
+            resultsContainer.innerHTML = '<p class="text-zinc-500">"<strong>' + query + '</strong>" için sonuç bulunamadı.</p>';
+        } else {
+            filtered.forEach(post => {
+            const wrapper = document.createElement('div');
+            wrapper.innerHTML = post.card;
+            resultsContainer.appendChild(wrapper.firstElementChild);
+            });
+        }
+        });
+    });
+</script>
+
+{{ end }}

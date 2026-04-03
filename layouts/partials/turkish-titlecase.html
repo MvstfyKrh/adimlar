@@ -1,0 +1,31 @@
+{{- $input := . -}}
+
+{{/* Only fix I/i explicitly; other letters can use Hugo's default */}}
+{{- $fixUpper := dict "i" "İ" -}}
+{{- $fixLower := dict "I" "ı" -}}
+
+{{/* Step 1: Manual lowercasing to avoid wrong I→i */}}
+{{- $lowered := "" -}}
+{{- range seq (len $input) }}
+  {{- $char := substr $input (sub . 1) 1 }}
+  {{- $lower := index $fixLower $char | default (lower $char) }}
+  {{- $lowered = print $lowered $lower }}
+{{- end }}
+
+{{/* Step 2: Split into words */}}
+{{- $words := split $lowered " " -}}
+{{- $titled := slice -}}
+
+{{/* Step 3: Capitalize first letter of each word with Turkish fix */}}
+{{- range $words }}
+  {{- if gt (len .) 0 }}
+    {{- $first := substr . 0 1 }}
+    {{- $rest := substr . 1 }}
+    {{- $upper := index $fixUpper $first | default (upper $first) }}
+    {{- $word := print $upper $rest }}
+    {{- $titled = $titled | append $word }}
+  {{- end }}
+{{- end }}
+
+{{/* Step 4: Return result */}}
+{{- return (delimit $titled " ") }}

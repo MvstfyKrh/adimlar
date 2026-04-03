@@ -1,0 +1,14 @@
+[
+{{- $pages := where .Site.RegularPages "Type" "posts" -}}
+{{- range $i, $page := $pages -}}
+  {{- if $i }},{{ end }}
+  {
+    "title": {{ $page.Title | jsonify }},
+    "url": {{ $page.RelPermalink | jsonify }},
+    "tags": {{ $page.Params.tags | default slice | jsonify }},
+    "categories": {{ $page.Params.categories | default slice | jsonify }},
+    "author": {{ .Params.author.name | jsonify }},
+    "card": {{ partial "content/card.html" $page | jsonify }}
+  }
+{{- end -}}
+]
