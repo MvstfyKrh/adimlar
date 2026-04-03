@@ -89,11 +89,11 @@
 
     <div class="flex items-center mt-10">
       {{- if $paginator.HasPrev -}}
-        <a class="border rounded-full px-6 py-2 bg-bisque hover:bg-ivory mr-auto" href="{{ $paginator.Prev.URL }}">← Geri</a>
+        <a class="rounded-full px-6 py-2 bg-bisque hover:bg-ivory mr-auto" href="{{ $paginator.Prev.URL }}">← Geri</a>
       {{- end -}}
 
       {{- if $paginator.HasNext -}}
-        <a class="border rounded-full px-6 py-2 bg-bisque hover:bg-ivory" href="{{ $paginator.Next.URL }}">İleri →</a>
+        <a class="rounded-full px-6 py-2 bg-bisque hover:bg-ivory" href="{{ $paginator.Next.URL }}">İleri →</a>
       {{- end -}}
     </div>
 
