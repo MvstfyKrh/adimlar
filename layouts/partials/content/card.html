@@ -27,7 +27,13 @@
 
 		{{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
 		{{- $dateHuman := .Date | time.Format ":date_long" -}}
-		<time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+		{{- $name := .Params.Author.name -}}
+
+		<div class="flex items-center">
+			<p class="font-semibold">{{ $name }}</p>
+			<p class="mx-2">•</p>
+			<time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+		</div>
 
 		<h3 class="my-4 text-2xl font-bold">{{ .LinkTitle }}</h3>
 
