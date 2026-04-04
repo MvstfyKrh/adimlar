@@ -2,28 +2,31 @@
 	<div class="flex items-center py-3">
 		<div class="flex items-stretch">
 			<div class="px-6 py-2 rounded-full bg-light hover:bg-dark text-xl font-bold uppercase flex items-center">
-				{{ if .IsHome }}
 				<h1 class="m-0">
 					<a href="{{ .Site.BaseURL }}" class="hover:underline focus:outline-none">
 					{{ .Site.Title }}
 					</a>
 				</h1>
-				{{ else }}
-				<h2 class="m-0">
-					<a href="{{ .Site.BaseURL }}" class="hover:underline focus:outline-none">
-					{{ .Site.Title }}
-					</a>
-				</h2>
-				{{ end }}
 			</div>
 		</div>
-
-		<div class="px-4 block">
+		<button
+			class="md:hidden flex items-center px-4 py-2 rounded-full bg-light hover:bg-dark toggle-button ml-auto"
+			data-target="mobile-menu"
+			type="button"
+			>
+			<svg width="22" height="22" fill="currentColor" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+			</svg>
+			</button>
+		<div class="px-4 block hidden md:flex">
 			{{- partial "menu.html" (dict "menuID" "main" "page" .) -}}
 		</div>
-
+		<div class="hidden md:flex ml-auto">
+			{{- partial "search.html" . -}}
+		</div>
+	</div>	
+	<div id="mobile-menu" class="flex flex-col md:hidden mt-3 close">
 		{{- partial "search.html" . -}}
+		{{- partial "menu.html" (dict "menuID" "main" "page" .) -}}
 	</div>
-	
-	
 </div>

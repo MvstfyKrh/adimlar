@@ -47,3 +47,21 @@ body {
 .hover\:bg-dark:hover {
   background-color: var(--color-bg-dark);
 }
+
+.bg-transparent {
+  background-color: #0000;
+}
+
+@media (min-width: 768px) {
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+}
