@@ -11,8 +11,8 @@ Renders a menu for the given menu ID.
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-  <nav id="menu-bar" class="block mt-3 close">
-    <ul class="flex items-center flex flex-nowrap whitespace-nowrap overflow-x-auto space-x-4">
+  <nav id="menu-bar">
+    <ul class="flex items-center flex-nowrap whitespace-nowrap space-x-4">
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
     </ul>
   </nav>
@@ -22,12 +22,12 @@ Renders a menu for the given menu ID.
   {{- $page := .page }}
   {{- range .menuEntries }}
     {{- $attrs := dict "href" .URL }}
-    {{- /* Add the "rounded-full border-main px-6 py-2 bg-light hover:bg-dark" class to all links */}}
-    {{- $attrs = merge $attrs (dict "class" "rounded-full border border-main px-6 py-2 bg-light hover:bg-dark") }}
+    {{- /* Add the "rounded-full px-6 py-2 bg-light hover:bg-dark" class to all links */}}
+    {{- $attrs = merge $attrs (dict "class" "rounded-full px-6 py-2 flex items-center bg-light hover:bg-dark") }}
     
     {{- if $page.IsMenuCurrent .Menu . }}
       {{- /* Add the "active:bg-zinc-300" class if the link is the current page */}}
-      {{- $attrs = merge $attrs (dict "class" (printf "%s %s" $attrs.class "border-dark")) }}
+      {{- $attrs = merge $attrs (dict "class" (printf "%s %s" $attrs.class "border border-dark")) }}
       {{- /* Add the "aria-current" attribute */}}
       {{- $attrs = merge $attrs (dict "aria-current" "page") }}
     {{- else if $page.HasMenuCurrent .Menu .}}
